@@ -1,0 +1,18 @@
+click
+huggingface-hub
+matplotlib
+mdm @ git+https://github.com/Robbyant/lingbot-depth.git
+numpy
+onnx
+onnxruntime-gpu
+onnxscript
+opencv-python
+pillow
+polygraphy
+pyrealsense2
+scipy
+tensorrt
+torch==2.6.0
+torchvision==0.21.0
+trimesh
+xformers==0.0.29.post2

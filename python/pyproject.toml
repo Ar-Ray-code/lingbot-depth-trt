@@ -1,0 +1,28 @@
+[project]
+name = "lingbot-depth-trt-python"
+version = "0.1.0"
+description = "Python tools for LingBot-Depth TensorRT conversion and RealSense live demo."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "click",
+    "huggingface-hub",
+    "matplotlib",
+    "mdm @ git+https://github.com/Robbyant/lingbot-depth.git",
+    "numpy",
+    "onnx",
+    "onnxruntime-gpu",
+    "onnxscript",
+    "opencv-python",
+    "pillow",
+    "polygraphy",
+    "pyrealsense2",
+    "scipy",
+    "tensorrt",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "trimesh",
+    "xformers==0.0.29.post2",
+]
+
+[tool.uv]
+package = false
